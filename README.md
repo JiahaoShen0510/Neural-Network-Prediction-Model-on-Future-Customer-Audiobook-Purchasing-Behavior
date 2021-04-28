@@ -5,6 +5,6 @@ The original dataset is unlabeled, thus the pandas dataframe is provided to bett
 considered is shuffled twice to eliminate the possible unaware influences and relations at the initial order, and is reduced to the 4,474 values between the two shuffles in order to have the equal amounts of target values (0 and 1) to fit the model.
 
 Implement the neural network model with TensorFlow. Combine the three activation functions of ReLu, Tanh and Sigmoid for 3 hidden layers, apply the Adam optimizer.
-and set the early stopping with the paitence of 3.
+and set the early stopping with the paitence of 3. The training runs for 16 epochs. 
 
 Reach the 83.21% accuracy rate on training set, and 80.13% accuracy rate on test set. 
